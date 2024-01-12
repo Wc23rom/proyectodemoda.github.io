@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+    <link rel="stylesheet" href="of.css">
+</head>
+<body>
+
+    <div class="swiper mySwiper">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="logot.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>$45</span>
+                        <h3>Camisa azul oscuro</h3>
+                        <p>
+                            Camisa de vestir, azul oscuro elegante de alta costura y 
+                            buenos materiales 
+                        </p>
+                    </div>
+                    <div class="product-img">
+                        <img src="fo1.png" alt="">
+                    </div>
+                </div>
+                <a href="" class="btn-1">Comprar</a>
+                <a href="index.html" class="btn-1">Regresar</a>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="logot.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>$45</span>
+                        <h3>Camisa azul oscuro</h3>
+                        <p>
+                            Camisa de vestir, azul oscuro elegante de alta costura y 
+                            buenos materiales 
+                        </p>
+                    </div>
+                    <div class="product-img">
+                        <img src="fo2.png" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Comprar</a>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="logot.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>$45</span>
+                        <h3>Camisa azul oscuro</h3>
+                        <p>
+                            Camisa de vestir, azul oscuro elegante de alta costura y 
+                            buenos materiales 
+                        </p>
+                    </div>
+                    <div class="product-img">
+                        <img src="fo3.png" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Comprar</a>
+            </div>
+
+            
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper",{
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: true,
+            coverflowEffect: {
+                depth:500,
+                modifer:1,
+                slidesShadows:true,
+                rotate:0,
+                stretch:0
+            }
+        })
+
+    </script>
+</body>
+</html>
